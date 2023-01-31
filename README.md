@@ -1,8 +1,15 @@
 # gitHubAPI
 
-Create a personal access token on github and authorize orginization.
+Create a personal access token(classic) on github and set repo access then copnfigure sso for orginization access.
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
-add token to env file in main directory run - export TOKEN="" or replace the token variable in server.js
+clone repo,
+in main directory run - npm install
+
+in client directory run - npm install
+
+add token to env file in main directory by running in terminal - export TOKEN="<yourToken>" 
+or replace the token variable in server.js
 
 change name variable to desired name in server.js
 

@@ -3,7 +3,7 @@ const axios = require('axios');
 
 const app = express();
 const token = process.env.TOKEN
-const name = 'michaelbourlotos'
+const name = 'michaelbourlotos' || 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
 
 //seperate queries for each repository 
 app.get('/hyperion', (req, res) => {
@@ -74,5 +74,5 @@ app.get('/titan', (req, res) => {
 
 
 app.listen(3001, function(){
-    console.log('server has started on port 3000');
+    console.log('server has started on port 3001');
 });
