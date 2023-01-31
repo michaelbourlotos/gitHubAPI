@@ -3,7 +3,7 @@ const axios = require('axios');
 
 const app = express();
 const token = process.env.TOKEN
-const name = 'michaelbourlotos' || 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
+const name = 'michaelbourlotos'
 
 //seperate queries for each repository 
 app.get('/hyperion', (req, res) => {
