@@ -1,4 +1,5 @@
 # gitHubAPI
+App for accessing issue data from github.
 
 Create a personal access token(classic) on github and set repo access then configure sso for orginization access.
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
