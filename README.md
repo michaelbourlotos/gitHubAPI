@@ -8,7 +8,7 @@ in main directory run - npm install
 
 in client directory run - npm install
 
-add token to env file in main directory by running in terminal - export TOKEN="<yourToken>" 
+add token to env file in main directory by running in terminal - export TOKEN="yourTokenHere" 
 or replace the token variable in server.js
 
 change name variable to desired name in server.js
